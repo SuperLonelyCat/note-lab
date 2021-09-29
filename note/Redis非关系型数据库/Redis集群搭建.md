@@ -96,7 +96,7 @@ Can I set the above configuration? (type 'yes' to accept): yes
 
 ##### 2.1 部署 Redis 服务
 
-**集群模式：**Redis Cluster
+**集群模式：** Redis Cluster
 
 **三主三从：** master：7100		slave：6100
 
