@@ -6,9 +6,9 @@
 
 ##### 1.1 部署 Redis 服务
 
-**集群模式：**Redis Cluster
+**集群模式：** Redis Cluster
 
-**三主三从：**master：7000	    slave：6000
+**三主三从：** master：7000	    slave：6000
 
 ​				   master：7001        slave：6001
 
@@ -63,7 +63,7 @@ https://rubygems.org/pages/download	→	ZIP
 
 在 RubyGems 文件夹下打开 CMD 命令行窗口，执行指令 `ruby setup.rb`，再执行指令 `gem install redis`
 
-在 F:\RedisCluster\Ruby24-x64\lib\ruby\gems\2.4.0\gems 文件夹下， 查看 Redis 版本为 redis-4.2.5
+在 Ruby24-x64\lib\ruby\gems\2.4.0\gems 文件夹下， 查看 Redis 版本为 redis-4.2.5
 
 ##### 1.3 下载集群脚本redis-trib.rb
 
