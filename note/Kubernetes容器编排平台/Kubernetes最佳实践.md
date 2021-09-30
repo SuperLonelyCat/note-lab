@@ -29,7 +29,7 @@ Kubernetes功能：
 
 #### 3 集群架构
 
-![K8S设计架构](../../image\K8S设计架构.png)
+![K8S设计架构](../../image/K8S设计架构.png)
 
 ##### 3.1 控制面板组件
 
@@ -136,7 +136,7 @@ Node是Pod真正运行的主机，可以是物理机，也可以是虚拟机。�
 kubectl run NAME --image=nginx:1.18 --replicas=3 --port=80
 ```
 
-**（2）Deployment 创建 **
+**（2）Deployment 创建**
 
 **① kubectl create 指令：删除创建**
 
@@ -303,7 +303,7 @@ kubectl delete service service-NAME
 
 ##### 2.8 可视化
 
-打开 https://link.zhihu.com/?target=https%3A//raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-rc5/aio/deploy/recommended.yaml，按 Ctrl + s 将 yaml 文件保存在本地，根据如下内容修改文件
+打开 https://link.zhihu.com/?target=https%3A//raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-rc5/aio/deploy/recommended.yaml, 按 Ctrl + s 将 yaml 文件保存在本地，根据如下内容修改文件
 
 ```yaml
 kind: Service
@@ -373,7 +373,7 @@ namespace:  20 bytes
 token:      eyJhbGciOiJSUzI1NiIsImtpZCI6IjllXzZ1dExySWRXWUd0WF8tUGpDVFlDNmdMVm1Hb29DQVJsRFMxVUM4NjgifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlcm5ldGVzLWRhc2hib2FyZCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJrdWJlcm5ldGVzLWRhc2hib2FyZC10b2tlbi01NnFzNSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJrdWJlcm5ldGVzLWRhc2hib2FyZCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjRmNDg0NjYyLTYyZmMtNDE3OS1iMTIzLTZkMTZjYzVhMzE0MyIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDprdWJlcm5ldGVzLWRhc2hib2FyZDprdWJlcm5ldGVzLWRhc2hib2FyZCJ9.HvuXdDz-3DNNgJ8C_l1Bf4nNjZaNgZ8JHAsvrgGR3zSlNUB8NqpnLlfRUzZRwDVESdolMmwlhjzmJ7wh5ep5hXYNgvQw1UWozkWCxXpOvGO2a5fSNL3dry-nZKIqjtZdYW4zlTZQY0KUZjAdy3_Z2i_yLDorLXEqzmfUdN0Ive8gQUiqkSwMINgXIjkZjkvwvw8OSyEJ_vOwnl-UaM9TiFo5EQ-vMCridzcuojG8P79pLDASnQw7Q2MH05k8NwfpiES5flVS1IFKUNrbb6e8bQIr7TFJ54m_H7Tk5vUPSAjZ-W7BfjdrhoRAzKdzd7b-IdGqkXtjgBbpAf0EVIx0Mg
 ```
 
-登录 https://localhost:30000；高级 →  继续前往localhost（不安全）；选择 Token，输入token
+登录 https://localhost:30000; 高级 →  继续前往localhost（不安全）；选择 Token，输入token
 
 执行下列命令，安装 Rancher
 
